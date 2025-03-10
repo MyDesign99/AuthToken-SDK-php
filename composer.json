@@ -1,0 +1,28 @@
+{
+	"name": "MyDesign99/AuthToken-SDK-php",
+	"description": "Library for obtaining Auth Token from MyDesign99 for PHP servers",
+	"keywords": ["MyDesign99.com", "MD99", "Authenticate", "Images", "Auth", "Token", "SDK", "PHP"],
+	"type": "library",
+	"version": "1.1.1",
+	"homepage": "https://mydesign99.com",
+	"license": "MIT",
+	"authors": [
+		{
+			"name":     "MyDesign99",
+			"homepage": "https://mydesign99.com",
+			"role":     "Owner"
+		},
+		{
+			"name":     "Tim Lambert",
+			"role":     "Original Developer"
+		}
+	],
+	"require": {
+		"php": "^5.3|^7"
+	},
+	"autoload": {
+		"psr-4": {
+			"MD99_SDK\\": "src/"
+		}
+	}
+}
