@@ -14,7 +14,9 @@ Use the Image Authentication SDK from MyDesign99 on your server to build fully f
 MyDesign99 requires that image requests use authenticated tokens in the fully-formed URL as a part of your own designs and websites. This SDK is used to retrieve the latest token for your account and to format the URL.
 
 Example:
+```
 https://mydesign99.com/abcd1234/wxyz5678asdf9876/78/first-asset.png
+```
 
 ## USAGE
 
